@@ -17,7 +17,7 @@ namespace ShoppingAppAPI.Controllers
         {
             iprodrep = ipr;
             _logger = logger;
-        }//get all product
+        }//get all products
         [HttpGet("GetAllProducts")]
         [Authorize]
         public IEnumerable<ProductView> GetAllProducts()
